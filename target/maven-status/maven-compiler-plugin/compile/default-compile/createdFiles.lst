@@ -1,0 +1,13 @@
+com/manuelcastillo/api/usuario/ms/usuario/services/UserImpl.class
+com/manuelcastillo/api/usuario/ms/usuario/entities/User.class
+com/manuelcastillo/api/usuario/ms/usuario/mapper/UserMapperImpl.class
+com/manuelcastillo/api/usuario/ms/usuario/dto/PhoneDto.class
+com/manuelcastillo/api/usuario/ms/usuario/controller/UserController.class
+com/manuelcastillo/api/usuario/ms/usuario/services/IUser.class
+com/manuelcastillo/api/usuario/ms/usuario/entities/Phone.class
+com/manuelcastillo/api/usuario/ms/usuario/dto/LoginDto.class
+com/manuelcastillo/api/usuario/ms/usuario/dto/UserDto.class
+com/manuelcastillo/api/usuario/ms/usuario/repositories/UserRepository.class
+com/manuelcastillo/api/usuario/ms/usuario/mapper/IUserMapper.class
+com/manuelcastillo/api/usuario/ms/usuario/MsUsuarioApplication.class
+com/manuelcastillo/api/usuario/ms/usuario/dto/OutLoginDto.class

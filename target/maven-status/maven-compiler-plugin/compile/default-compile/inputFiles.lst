@@ -1,0 +1,13 @@
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/mapper/IUserMapper.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/controller/UserController.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/entities/User.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/dto/UserDto.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/services/IUser.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/dto/LoginDto.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/MsUsuarioApplication.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/entities/Phone.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/services/UserImpl.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/dto/OutLoginDto.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/dto/PhoneDto.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/repositories/UserRepository.java
+/Users/mcp/Downloads/ms-usuario/src/main/java/com/manuelcastillo/api/usuario/ms/usuario/mapper/UserMapperImpl.java
