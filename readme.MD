@@ -13,14 +13,14 @@ Una es mediante un **Deployment** en una instalacion que tenga al menos **Intell
 
 _Se resumirá la solución implementada y a continuacion se mostrará la estructura del proyecto_
 
-Para dar la soluci{on, se procedió a generar una aproximacion a la arquitectura hexagonal.
+Para dar la solucion, se procedio a generar una aproximacion a la arquitectura hexagonal.
 Se basa en los principios SOLID, realizando una separacion de capas, para la exposicion de datos y sus componentes, permitiendo una separacion entra la obtencion de datos y el proceso de expisicion de datos.
 
 
 ```
 ms.usuario/
 ├── src/main/java/com.manuelcastillo
-│   └── controller
+│   ├── controller
 │   ├── dto
 │   ├── entities
 │   ├── mapper
@@ -28,6 +28,23 @@ ms.usuario/
 │   └── services
 └── readme.MD
 ```
+
+### Descripcion de la asolucion 📌
+La segregacion de las capas, a fin de aplicar patrones de diseño y clean code se detalla a conitnuacion:
+
+```
+ms.usuario/
+├── capa de presentacion
+│   ├── controller
+│   ├── mapper
+│   └── dto
+├── capa de datos
+│   ├── services
+│   ├── entities
+│   └── repositories
+└── ./target/ms-usuario-0.0.1-SNAPSHOT.jar
+```
+
 
 ### Instalación 🔧
 
@@ -74,7 +91,7 @@ Hay que considerar tambien, que para la ejecucion de los metodos, se pueden util
 
 ## Construido con 🛠️
 
-_A continuaci{on se enumera un listado de las herramientas utilizadas para la construccion de la aplicacion_
+_A continuacion se enumera un listado de las herramientas utilizadas para la construccion de la aplicacion_
 
 * [Spring Initializr](https://start.spring.io/) - Herramienta web, que permite crear el esquelon basico de una aplicacion Java Springboot
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
@@ -83,6 +100,11 @@ _A continuaci{on se enumera un listado de las herramientas utilizadas para la co
 * [SWAGGER](https://swagger.io/tools/open-source/open-source-integrations/) - Tools and Integrations
 * [JPA](https://spring.io/projects/spring-data-jpa) - Java Persistence API
 
+## Endpoints 🖇️
+* [/api/createuser](http://localhost:8095/api/createuser) - Permite la creacion de un usuario y su listado de telefonos
+* [/api/deleteuser/{id}](http://localhost:8095/api/deleteuser/78d6779e-5161-46ef-a039-b4a75a48c376) - Permite eliminar un usuario completo
+* [/api/login](http://localhost:8095/api/login) - Permite hacer ligin y actualizar la fecha de logueo
+* [/api/getuser/{id}](http://localhost:8095/api/getuser/363d5fc6-7879-4a62-b091-9ba2029ba14e) - Permite obtener la informacion completa de un usuario
 
 
 ## Autor ✒️
